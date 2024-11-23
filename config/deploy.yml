@@ -50,7 +50,7 @@ aliases:
 # Use a persistent storage volume for sqlite database files and local Active Storage files.
 # Recommended to change this to a mounted volume path that is backed up off server.
 volumes:
-  - "kamal_on_rails_storage:database.sqlite3"
+  - "kamal_on_rails_storage:/storage/database.sqlite3"
 
 # Bridge fingerprinted assets, like JS and CSS, between versions to avoid
 # hitting 404 on in-flight requests. Combines all files from new and old
